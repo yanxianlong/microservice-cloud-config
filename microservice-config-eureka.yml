@@ -1,4 +1,6 @@
-﻿#注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
+emp:
+  name: zhangsan
+#注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
 spring:
   profiles:
     active: dev # 激活开发环境配置
@@ -44,6 +46,5 @@ eureka:
   server:
     enable-self-preservation: true # 开启自我保护机制*****************
 #保存时注意，选择 UTF-8 保存
-emp:
-  name: zhangsan
+
 
